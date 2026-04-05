@@ -1,0 +1,55 @@
+# Build artifacts
+/cli.js
+/cli-dev
+/cli-dev.exe
+/cli
+/cli.exe
+dist/
+build/
+.cache/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+*.bun-build
+
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+.npmrc
+.yarnrc
+.yarnrc.yml
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local runtime files
+.claude/
+.agents/
+tmp/
+temp/
+*.local
